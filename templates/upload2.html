@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+{% block title %}Dating App{% endblock %}
+{% block script %}
+<script type="text/javascript" src="{{url_for('static', filename='input.js')}}"></script>
+{% endblock %}
+{% block content %}
+<h1>Upload Page</h1>
+<p>{{text}}</p>
+<form id="upload" action="#" method="POST" enctype="multipart/form-data">
+  <label>Email:</label><br>
+  <input type="email" name="email_1"><br><br>
+  <input type="submit" value="send">
+</form>
+<p>{{hello}}</p>
+{% endblock %}

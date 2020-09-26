@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+{% block title %}Dating App{% endblock %}
+{% block script %}
+<script type="text/javascript" src="{{url_for('static', filename='input.js')}}"></script>
+{% endblock %}
+{% block content %}
+<h1>DisPlay Matching</h1>
+<p>{{email_1}}</p>
+
+{% endblock %}
