@@ -4,7 +4,13 @@
 <script type="text/javascript" src="{{url_for('static', filename='input.js')}}"></script>
 {% endblock %}
 {% block content %}
-<h1>DisPlay Matching</h1>
+<h1>Display Ranking</h1>
 <p>{{email_1}}</p>
-
+<table>
+  {% for i in (person) %}
+    <tr>
+      <td class="c2">{{loop.index0+1}}. {{i}}</td>
+    </tr>
+  {% endfor %}
+</table>
 {% endblock %}
