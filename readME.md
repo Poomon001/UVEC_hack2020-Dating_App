@@ -19,6 +19,7 @@ Poom - he is responsible of the display (Flask) part
 2. Have a presice ranking
 2. Improve the UI
 3. improve coding style
+4. Using JavaScript to improve the app UI
 
 ## Example of inputFile, input, model and result
 

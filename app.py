@@ -1,4 +1,4 @@
-from flask import  Flask, render_template, url_for, redirect, request
+from flask import  Flask, render_template, url_for, redirect, request, send_file
 import dating
 import csv
 from geopy.distance import great_circle
@@ -32,6 +32,10 @@ def ranking():
         return render_template("displayRanking.html", text="Ranking Mode", person = persons)
     else:
         return render_template("upload2.html", text="Ranking Mode")
+
+@app.route("/testCases")
+def testCases():
+    return send_file('UVEC-Fall-2020-Seed.csv', as_attachment=True, attachment_filename='UVEC-Fall-2020-testCases.csv')
 
 if __name__ == "__main__":
     app.run(debug=True)
