@@ -1,3 +1,0 @@
-fix read me,
-update my resume award and project,
-deploy to github
