@@ -15,9 +15,11 @@ def sc(em1, em2, ranking):
     person1_email = em1
     person2_email = em2
 
+    # store person info
     person1 = {}
     person2 = {}
 
+    #top 10
     ranklist = []
     sclist = []
 
@@ -52,6 +54,7 @@ def sc(em1, em2, ranking):
             if gendermatch(person1, row) == 1:
                 ranklist.append(row)
 
+    # matching mode
     if ranking == 0:
         # if a person's gender does not match the other's gender preference, they should not be matched at all
         if gendermatch(person1, person2) == 1:
@@ -61,6 +64,7 @@ def sc(em1, em2, ranking):
         else:
             return 0
 
+    # ranking mode
     else:
         # calculate the score of all matches and store them in a list
         for x in ranklist:
