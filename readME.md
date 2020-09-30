@@ -3,6 +3,8 @@ Dating App is an online dating platform application that evaluates potential mat
 
 The topic in this competition is to use any algorithms to create a dating app and employ frontend tools to turn it into a web API.  
 
+Check out this link: [https://dating-app-uvec2020.herokuapp.com/](https://dating-app-uvec2020.herokuapp.com/)
+
 ## How does Cover Letter Maker works?
 
 1. Ask users to enter their email and/or the other email
