@@ -1,39 +1,46 @@
-#Dating App UVEC_2020
-##design overview
-This web app is a Flask web app that consists of 2 modes:
-1. Matching mode
-2. Ranking mode
-We have a phyton script and import to python Flask to use the method in the script
+# UVEC_2020 - Dating-App
+Dating App is an online dating platform application that evaluates potential matches of two users (in CSV file). It means to help users find their best pair that matches their preferences. 
 
-##The division of labour among your teammates
-Jeet - he is responsible for the script part
-Poom - he is responsible of the display (Flask) part
+The topic in this competition is to use any algorithms to create a dating app and employ frontend tools to turn it into a web API.  
 
-##Any open-source libraries used, and why you chose them
-1. Flask - to create a web aapp
-2. Geopy - to calculate a distaance
-3. CHV - to reade excel file
+## How does Cover Letter Maker works?
 
-##Ways that you would expand your product if you had more time
-1. Make the score be more percise (fomula)
-2. Have a presice ranking
-2. Improve the UI
-3. improve coding style
-4. Using JavaScript to improve the app UI
+1. Ask users to enter their email and/or the other email
+2. Take the input emails and search for all details of each in a CVS file
+3. Use the details retrieved to calculate a matching score from many formulas
+4. On Matching Mode: Display a matching score and owner name
+5. On Ranking Mode: Calculate scores of every user and Display the top 10 highest matching scores and owner names  
 
-## Example of inputFile, input, model and result
+## The division of labor
+A team - Communicate to make algorithms to calculate a matching score formula
+Jeet - Code the python script
+Poom - Use Flask to implement the script as a web application
+
+## Key skills      
+* Python
+* Flask Flamework
+* Jinja
+* CSV library
+* GEopy library
+* HTML/CSS
+
+## What is next for the Dating app?
+1. Make the score more precise (formula)
+2. Improve the UI using JavaScript
+3. Improve coding style
+4. Make a form to add new users
+5. Change storage from a CSV file to a database
+
+## Example of inputFile, input, model, and result
 
 ### Maching Mode
-<img src="images/maching_mode.jpg" height=500>
+<img src="images/matching_mode.jpg" height=400>
  
 ### Rank_Mode
-<img src="images/rank_mode.jpg" height=500>
+<img src="images/ranking_mode.jpg" height=400>
 
 ### Display Matching
-<img src="images/display_matching.jpg" height=500>
+<img src="images/display_matching.jpg" height=400>
 
 ### Display Ranking
-<img src="images/display_ranking.jpg" height=500>
-
- 
-
+<img src="images/display_ranking.jpg" height=400>
