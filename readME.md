@@ -14,9 +14,9 @@ Check out this link: [https://dating-app-uvec2020.herokuapp.com/](https://dating
 5. On Ranking Mode: Calculate scores of every user and Display the top 10 highest scores and owner names  
 
 ## The division of labor
-A team - Communicate to make algorithms to calculate a matching score formula
-Jeet - Code the python script
-Poom - Use Flask to implement the script as a web application
+* A team - Communicate to make algorithms to calculate a matching score formula
+* Jeet - Code the python script
+* Poom - Use Flask to implement the script as a web application
 
 ## Key skills      
 * Python
