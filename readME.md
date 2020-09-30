@@ -11,7 +11,7 @@ Check out this link: [https://dating-app-uvec2020.herokuapp.com/](https://dating
 2. Take the input emails and search for all details of each in a CVS file
 3. Use the details retrieved to calculate a matching score from many formulas
 4. On Matching Mode: Display a matching score and owner name
-5. On Ranking Mode: Calculate scores of every user and Display the top 10 highest matching scores and owner names  
+5. On Ranking Mode: Calculate scores of every user and Display the top 10 highest scores and owner names  
 
 ## The division of labor
 A team - Communicate to make algorithms to calculate a matching score formula
