@@ -1,7 +1,7 @@
 # UVEC_2020 - Dating-App
 Dating App is an online dating platform application that evaluates potential matches of two users (in CSV file). It means to help users find their best pair that matches their preferences. 
 
-The topic in this competition is to use any algorithms to create a dating app and employ frontend tools to turn it into a web API.  
+The topic in this competition is to use any algorithms to create a dating app and employ frontend tools to turn it into a web API. Winner of 1st place award.  
 
 Check out this link: [https://dating-app-uvec2020.herokuapp.com/](https://dating-app-uvec2020.herokuapp.com/)
 
