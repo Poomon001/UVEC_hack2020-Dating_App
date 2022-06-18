@@ -5,7 +5,7 @@ The topic in this competition is to use any algorithms to create a dating app an
 
 Check out this link: [https://dating-app-uvec2020.herokuapp.com/](https://dating-app-uvec2020.herokuapp.com/)
 
-## How does Cover Letter Maker works?
+## How does dating app works?
 
 1. Ask users to enter their email and/or the other email
 2. Take the input emails and search for all details of each in a CVS file
